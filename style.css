@@ -1,0 +1,1740 @@
+body {
+    margin: 0;
+    background-color: #f5edea;
+}
+.bg-blue {
+    background-image: url("images/BG1 1.png");
+    background-size: cover;
+    background-position: center;
+}
+.container1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.blue-line {
+    border-top: 1px solid #3acec5;
+    margin-bottom: 80px;
+}
+.black-line {
+    border-top: 1px solid #022735;
+    margin-bottom: 80px;
+}
+* {
+  box-sizing: border-box;
+}
+.arrows {
+    display: inline-block;
+}
+.arrows a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #022735;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #022735;
+    
+}
+.arrows a:first-child {
+    margin-right: 15px;
+}
+.arrows a:hover {
+    background: #1ab0c4;
+}
+.arrows-white a {
+    color: white;
+    border-color: white;
+}
+.arrows-blue a {
+    color: #41D4CC;
+    border-color: #41D4CC;
+}
+.text-center {
+    text-align: center;
+}
+.bg-map {
+    background-image: url("images/bitmap.png");
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* BLOCK 1 ------------------- */
+.top-block {
+    position: relative;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.top-block .container {
+    padding-bottom: 100px;
+}
+.top-line {
+    overflow: auto;
+    margin-bottom: 80px;
+}
+
+.logo {
+    float: left;
+}
+.top-menu {
+    float: right;
+    padding-top: 15px;
+    font-family: Geometria;
+    font-weight: 400;
+}
+.top-menu a {
+    color: #022735;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.top-menu a:last-child {
+    margin-right: 0;
+    margin-left: 50px;
+    border: 1px solid #022735;
+    border-radius: 6px;
+    padding: 14px 27px;
+    font-weight: bold;
+}
+.top-menu a:hover {
+    color: #6a09e8;
+    border-color: #6a09e8;
+}
+.top-block-content .live {
+    font-size: 77px;
+    line-height: 77px;
+    font-family: Geometria;
+    font-weight: 800;
+    color: white;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.shape-logo img {
+    margin-left: 400px;
+}
+
+.top-block-content .gutenberg {
+    font-family: geometria;
+    font-weight: 400px;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 400px;
+    margin-bottom: 40px;
+}
+.order a {
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+    border: 2px solid #022735;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 14px 27px;
+    color: #022735;
+    font-size: 14px;
+    font-family: geometria;
+    font-weight: 700;
+}
+.order a:nth-child(1) {
+    color: white;
+    background-color: #022735;
+}
+.order a:hover {
+    color: #0e979c
+}
+.top-block .shape {
+    position: relative;
+    width: 300px;
+    height: 220px;
+}
+.top-block .shape img {
+    position: absolute;
+}
+.top-block .shape .shape1 {
+    top: 20px;
+}
+.top-block .shape .shape2 {
+    top: 50px;
+    left: 100px;
+}
+.top-block .shape .shape3 {
+    left: 200px;
+    top: 20px;
+}
+.house {
+    position: absolute;
+    right: -900px;
+    bottom: -300px;
+}
+.tree1 {
+    position: absolute;
+    left: -340px;
+    bottom: -70px;
+}
+
+
+/* BLOCK 2 ------------------------ */
+.block-2 .arrows {
+    position: absolute;
+    bottom: 60px;
+    right: 46px;
+}
+.block-2 {
+    padding: 100px 0 60px 0;
+}
+.block-2-container {
+    overflow: auto;
+    margin-bottom: 40px;
+}
+.block-left {
+    float: left;
+    width: 55%;
+    position: relative;
+    height: 750px;
+}
+
+.block-2 .rectangle {
+    position: absolute;
+}
+.block-2 .avatar {
+    position: absolute;
+    margin: 80px 70px 
+}
+.block-2 .path {
+    position: absolute;
+    left: 460px;
+    top: -5px;
+}
+.block-2 .mask {
+    position: absolute;
+    top: 475px;
+    overflow: hidden;
+}
+.block-2 .матіас1 {
+    position: absolute;
+    top: 492px;
+    left: -24px;
+}
+
+.block-2 .vector {
+    position: absolute;
+    top: 600px;
+    left: 320px;
+}
+.block-2 .path3 {
+    position: absolute;
+    top: 620px;
+    left: 190px
+}
+
+.block-2 .vector{
+    left: 540px;
+    top: 550px;
+}
+.block-about {
+    width: 40%;
+    float: right;
+}
+.block-about p {
+    font-size: 16px;
+    font-family: geometria;
+    font-weight: 400px;
+}
+
+.about {
+    text-decoration: none;
+    color: #022735;
+}
+.about1 p {
+    font-family: geometria;
+    font-size: 40px;
+    font-weight: 800;
+    color: #41D4CC;
+}
+.text2 p {
+    padding-top: 25px;
+}
+.about-text p {
+    font-size: 16px;
+    font-family: geometria;
+    font-weight: 400px;
+}
+.line1 img {
+    position: absolute;
+    top: 1850px;
+    right: 360px;
+}
+.block-3 {
+    background-color: rgb(245 237 234);
+}
+.container2 {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 480px;
+}
+.about-image1 {
+    top: 1900px;
+    position: absolute;
+    margin: 50px 0px;
+}
+.container2 input {
+    background-color: transparent;
+    width: 500px;
+    height: 45px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: geometria;
+    color: #022735;
+    padding-left: 13px;
+}
+
+.container2 input::placeholder {
+    color: #022735;
+    
+}
+.name form {
+    display: inline-block;
+    position: absolute;
+    padding-left:
+}
+.name1 {
+    top: 2000px;
+    left: 410px;
+}
+.tell {
+    top: 2070px;
+    left: 410px
+}
+.button a {
+    text-decoration: none;
+    color: #022735;
+    position: absolute;
+    top: 2170px;
+    left: 750px;
+    font-size: 15px;
+    font-family: geometria;
+    width: 700px;
+}
+.button a {
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 14px 27px;
+    color: #022735;
+    font-size: 14px;
+    font-family: geometria;
+    font-weight: 700;
+    width: 105px;
+    text-align: center;
+    background-color: #41D4CC;
+    
+}
+.button :hover {
+    border: 2px solid #022735;
+}
+.about3 {
+    width: 470px;
+    float: right;
+    margin: 70px 0px
+}
+.about3 a {
+    text-decoration: none;
+    color: #022735;
+    font-size: 16px;
+    font-family: geometria;
+    font-weight: 400px;
+}
+.about3 h2 {
+    font-family: geometria;
+    font-weight: 835;
+    color: #41D4CC;
+    font-size: 56px;
+}
+.about3 p {
+    font-family: geometria;
+    font-weight: 400px;
+    font-size: 16px;
+}
+.line2 img {
+    position: absolute;
+    top: 2370px;
+    right: 360px;
+}
+.cottage .cottage1 {
+    font-family: geometria;
+    font-size: 16px;
+    text-align: center;
+}
+.container3 {
+    background-color: rgb(245 237 234);
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    height: 760px;
+}
+.cottage h2 {
+    font-family: geometria;
+    font-weight: 800;
+    font-size: 56px;
+    text-align: center;
+    color: #41D4CC;
+}
+.container3 img {
+    position: absolute;
+}
+.rectangle1 img {
+    left: 300px;
+    top: 2550px
+}
+.container4 {
+    width: 1170px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: geometria;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.block-photo {
+    display: inline-block;
+    margin-right: 0%;
+    margin-left: 5%;
+    width: 5%;
+    padding-left: 170px;
+    padding-right: 120px;
+}
+
+.block-45:last-child {
+    background-color: transparent;
+    width: 500px;
+    height: 45px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: geometria;
+    color: #022735;
+    padding-left: 13px;
+}
+/* BLOCK 3 ------------------------ */
+.block3 {
+    width: 1170px;
+    padding: 100px 0 60px 0;
+}
+.block3-left {
+    width: 600px;
+    height: 312px;
+    background: #EEE2DC;
+    border-radius: 6px;
+    float: left;
+}
+.block3-left input {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: geometria;
+    color: #022735;
+    padding-left: 12px;
+    margin-bottom: 40px;
+    padding: 12px;
+}
+.block3-left form {
+    padding: 40px;
+    text-align: right;
+    
+    
+}
+.block3-left input::placeholder {
+    color: #022735; 
+}
+.block3-left button {
+    background-color: #41D4CC;
+    border-radius: 6px;
+    padding: 14px 30px;
+    font-size: 15px; 
+    font-family: geometria;
+    font-weight: 700;
+    border: 0px
+}
+.block3-right {
+    float: right;
+    width: 470px;
+}
+.block3-right div.pro-nas {
+    font-family: geometria; 
+    font-size: 16px;
+    font-weight: 400px;
+    padding-bottom: 10px
+}
+.block3-right .get {
+    font-size: 56px;
+    font-weight: 800;
+    color: #41D4CC;
+    margin-top: 30px;
+}
+.block3-right p {
+    font-size: 16px;
+    font-family: 'Geometria';
+    font-weight: 400;
+    margin-top: 40px;
+}
+.block-3-container {
+    overflow: auto;
+    margin-bottom: 100px;
+}
+/* BLOCK 4 ------------------------ */
+.block-4 {
+    overflow: auto;
+    margin-bottom: 0px;
+}
+.block-4-text {
+    text-align: center;
+    font-family: geometria;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #022735;
+    padding-bottom: 20px;
+}
+.genplan {
+    text-align: center;
+    font-family: geometria;
+    font-weight: 800;
+    font-size: 56px;
+    color: #41D4CC;
+    padding-bottom: 50px;   
+}
+.rectangle1 {
+    position: absolute;
+    top: 100px;
+    left: -60px;
+}
+.plans {
+    position: absolute;
+    padding-bottom: 90px;
+}
+.vector1 {
+    position: absolute;
+    top: 620px;
+    left: 1130px;
+}
+.block-4-text1 {
+    margin-top: 580px;
+    text-align: left;
+    font-family: geometria;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 70px;
+}
+.block-4-text1 p {
+    margin: 40px 0px;
+}
+/* BLOCK 5 ------------------------ */
+.block-5-cottage {
+    padding-top: 100px;
+    font-family: geometria;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #022735;
+    padding-bottom: 20px;
+}  
+.render {
+    font-family: geometria;
+    font-weight: 800;
+    font-size: 56px;
+    color: #FFFFFF;
+    padding-bottom: 70px;
+}
+.block-5-photo3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 40px;
+}
+.block-5-photo3 > div {
+    border: 1px solid #F2F2F2;
+    padding: 20px;
+    position: relative;
+}
+
+.block-5-photo3 .main-img {
+    width: 100%;
+}
+.block-5-photo3 .vector {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.vector4 {
+    position: absolute;
+    top: 555px;
+    left: 1385px; 
+}
+.block-5 .arrows-container {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+/* BLOCK 6 ------------------------ */
+ 
+.block-6-grid {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    padding-bottom: 100px;
+}
+.block-6-left {
+    background-color: #EEE2DC;
+    text-align: center;
+    border-radius: 6px;
+}
+.block-6-left .img-plan {
+    padding-top: 90px;
+    padding-bottom: 80px;
+    padding-right: 20x;
+    padding-left: 10px;
+    
+}
+.block-6-left .block-6-vektor {
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+.block-6-right {
+    
+}
+.block-6-cottege { 
+    margin-top: 40px;
+    font-family: geometria;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #022735;
+}
+.block-6-plan {
+    margin: 40px 0px;
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    color: #41D4CC;
+}
+.block-6-text {
+    margin: 40px 0px;
+    font-family: geometria;
+    font-size: 16px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.line {
+    border: 1px solid #41D4CC;
+    text-align: right;
+    width: 342px;
+    margin-left: 40px 0;
+}
+.storey1 {
+    font-family: geometria;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 40px 0;
+}
+.storey2 {
+    font-family: geometria;
+    font-size: 20px;
+    margin-left: 40px 0;
+    margin-bottom: 70px
+}
+.block-6-arrow {
+    margin-left: 40px;
+}
+.block-6-arrow a {
+    padding: 9px;
+    border: 1px solid #3acec5;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 56px;
+    text-align: center;
+}
+.block-6-arrow a:first-child {
+    margin-right: 10px;
+}
+/* BLOCK 7 ------------------------ */
+.block-7-cottege {
+    font-family: geometria;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #022735;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.block7-money {
+    font-family: geometria;
+    font-weight: 800;
+    font-size: 56px;
+    color: #41D4CC;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.table-money {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 0px;
+    border-radius: 6px;
+    margin-bottom: 60px;
+    border: 1px solid #41D4CC;
+}
+.table-money > div {
+    border-right: 1px solid #41D4CC;
+    padding: 20px;
+    
+}
+.table-money > div:last-child {
+   border-right: 0;
+}
+.table-money > div > div:first-child {
+    padding-top: 30px;
+    font-family: geometria;
+    font-weight: 800;
+    font-size: 40px;
+    color: #41D4CC;
+    height: 100px;
+    margin-bottom: 10px;
+    
+}
+.table-money > div > div:last-child {
+    font-family: geometria;
+    font-size: 20px;
+}
+.table-money > div:nth-child(2) > div:first-child {
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.table-money > div:nth-child(1) > div:first-child {
+    padding-top: 0;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.table-money .blue {
+    background-color: #41D4CC;
+    color: white;
+}
+.table-money > div.blue > div:first-child {
+    color: white;
+}
+
+.block-7-text {
+    font-family: geometria;
+    font-size: 16px;
+    margin-top: 20px;
+    
+}
+.block7-float {
+    margin-top: 60px;
+    margin-bottom: 460px;
+}
+.block-float-left {
+    width: 600px;
+    height: 312px;
+    background: #EEE2DC;
+    border-radius: 6px;
+    float: left;
+    margin-right: 5px;
+}
+.block-float-left input {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: geometria;
+    color: #022735;
+    padding-left: 12px;
+    margin: 30px 0px;
+    padding: 12px;
+}
+.block-float-left form {
+    padding-top: 10px;
+    text-align: right;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 51px;
+}
+.block-float-left input::placeholder {
+    color: #022735; 
+}
+.block-float-left button {
+    background-color: #41D4CC;
+    border-radius: 6px;
+    padding: 14px 30px;
+    font-size: 15px; 
+    font-family: geometria;
+    font-weight: 700;
+    border: 0px
+}
+.block7-float img {
+    position: absolute;
+    margin-top: 85px;
+}
+.block-float-right {
+    float: right;
+    margin-right: 20px;
+    width: 490px;
+    padding-left: 35px;
+    margin-top: 35px;
+}
+.block7 .block-float-right > div {
+    font-family: geometria;
+    font-weight: 835;
+    font-size: 50px;
+    color: #41D4CC;
+}
+.block7-text {
+    font-family: geometria;
+    font-size: 16px;
+    line-height: 2;
+}
+/* BLOCK 8 ------------------------ */
+.container .text {
+    padding-top: 100px;
+    font-family: geometria;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 50px
+
+}
+.block8 {
+    padding-bottom: 400px;
+}
+.block8-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin: 80px 80px 0px 80px;
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+    margin-bottom: 60px;
+}
+
+.block8-grid > div {
+    text-align: center;
+}
+
+.block8-grid > div > div {
+    font-family: geometria;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.block8-grid .spa {
+    margin-top: 37px;
+}
+.block8-grid > div:nth-child(4) {
+    margin-top: 23px;
+}
+.block8-text p {
+    font-family: geometria;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.block8-text p:nth-child(5) {
+    padding-bottom: 80px;
+}
+.block8-float-right {
+    float: right;
+    margin-right: 20px;
+    width: 490px;
+    padding-left: 35px;
+    margin-top: 35px;
+}
+.block8-float-right > div {
+    font-family: geometria;
+    font-weight: 835;
+    font-size: 50px;
+    color: white;
+}
+.block8-float-right {
+    float: right;
+    margin-right: 20px;
+    width: 490px;
+    padding-left: 35px;
+    margin-top: 35px;
+}
+.block8-float-right > div {
+    font-family: geometria;
+    font-weight: 835;
+    font-size: 50px;
+    color: white;
+}
+/* BLOCK 9 ------------------------ */
+.foto-video {
+    padding-top: 60px;
+    text-align: center;
+    font-family: geometria;
+    color: #022735;
+    font-size: 16px;
+}
+.foto-zvit {
+    text-align: center;
+    font-family: geometria;
+    font-size: 56px;
+    font-weight: 800;
+    color: #41D4CC;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.foto-removebg {
+    position: absolute;
+    top: 130px;
+    left: 345px;
+}
+.block9-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-gap: 10px 30px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block9-grid > div:nth-child(1) {
+    grid-column: 1 / -1;
+}
+.block9-grid > div:nth-child(2) {
+    grid-column: 1 / -1;
+}
+.block9-grid > div:nth-child(3) {
+    grid-column: 3 / -1;
+} 
+.bud-house-grid {
+    border-radius: 6px
+}
+.house-border {
+    padding: 10px 10px 30px 10px;
+    font-family: geometria;
+    font-size: 16px;
+    border: 1px solid white;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-radius: 19px;
+    background-color: white;
+    position: absolute;
+    top: 780px;
+    left: 50px;
+}
+.september {
+    font-family: geometria;
+    font-size: 56px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 830px;
+    left: 40px;
+}
+.block9-grid > div:first-child .arrows {
+    position: absolute;
+    top: 820px;
+    right: 510px
+}
+.block9-vector {
+    position: absolute;
+    top: 1000px;
+    right: 25px;
+}
+.block9-vector img {
+    width: 30px;
+    height: 30px;
+}
+.house-border1 {
+    padding: 10px 10px 30px 10px;
+    font-family: geometria;
+    font-size: 16px;
+    border: 1px solid white;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-radius: 19px;
+    background-color: white;
+    position: absolute;
+    top:  1250px;
+    left: 49px;
+}
+.august {
+    font-family: geometria;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 1300px;
+    left: 50px;
+}
+.house-border2 {
+    padding: 10px 10px 30px 10px;
+    font-family: geometria;
+    font-size: 16px;
+    border: 1px solid white;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-radius: 19px;
+    background-color: white;
+    position: absolute;
+    top:  1250px;
+    right: 270px;
+}
+.july {
+   font-family: geometria;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 1300px;
+    right: 258px;
+}
+.vector-august {
+    position: absolute;
+    top: 1310px;
+    left: 525px;
+}
+.vector-july {
+    position: absolute;
+    top: 1310px;
+    right: 20px;
+}
+.vector-september {
+    position: absolute;
+    top: 70px;
+    left: 600px;
+}
+.block9 .arrows {
+    margin-bottom: 40px;
+}
+.foto-interior {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 30px;
+}
+.foto-interior > div:first-child {
+    grid-row: 1 / 3
+}
+.foto-interior img {
+    border-radius: 6px;
+}
+.block9 .videozvit {
+    font-family: geometria;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #022735;
+}
+.block9 .videozvit1 {
+    font-family: geometria;
+    font-size: 56px;
+    font-weight: 800;
+    color: #41D4CC;
+    margin-bottom: 30px;
+} 
+
+.block9 .promo-video {
+    font-family: geometria;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 19px;
+    width: 109px;
+    text-align: center;
+    background: white;
+    padding: 9px;
+    position: absolute;
+    bottom: 400px;
+    left: 615px;
+}
+.block9 .border-video1 {
+    font-family: geometria;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 19px;
+    width: 100px;
+    text-align: center;
+    background: white;
+    padding: 9px;
+    position: absolute;
+    right: 150px;
+    bottom: 400px;
+}
+.block9 .border-video2 {
+    font-family: geometria;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 19px;
+    width: 100px;
+    text-align: center;
+    background: white;
+    padding: 9px;
+    position: absolute;
+    right: 150px;
+    bottom: 160px;
+}
+.block9 .border-video3 {
+    font-family: geometria;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 19px;
+    width: 100px;
+    text-align: center;
+    background: white;
+    padding: 9px;
+    position: absolute;
+    right: 456px;
+    bottom: 160px;
+}
+.block9 .border-august {
+    font-family: geometria;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    bottom: 380px;
+    right: 155px;
+}
+.block9 .border-june {
+    font-family: geometria;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    bottom: 140px;
+    right: 460px;
+}
+.block9 .border-may {
+    font-family: geometria;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    bottom: 140px;
+    right: 155px;
+}
+.foto-interior2 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 30px;
+}
+.foto-interior2 > div:first-child {
+    grid-row: 1 / 3;
+    height: 500px;
+}
+.foto-interior2 > div {
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+.label {
+    font-family: geometria;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 19px;
+    width: 100px;
+    text-align: center;
+    background: white;
+    padding: 9px;
+    margin: 15px 0px 0 15px
+}
+.text-white {
+    font-family: geometria;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-left: 15px;
+}
+.play {
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.503821);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 65px;
+    margin-left: 240px;
+    margin-top: 100px;
+   
+}
+.time {
+    font-family: geometria;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    width: 40px;
+    padding: 3px;
+    border-radius: 6px;
+    background: #570B00;
+    margin-top: 120px;
+    margin-left: 20px;
+    float: left;
+}
+.vector-white {
+    float: right;
+    margin-top: 120px;
+    margin-right: 20px;
+}
+.label2 {
+    font-family: geometria;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 19px;
+    width: 120px;
+    text-align: center;
+    background: white;
+    padding: 10px 12px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.text-white1 {
+    font-family: geometria;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.text-align-center {
+    font-family: geometria;
+    font-size: 16px;
+    text-align: center;
+    color: #022735;
+    margin-bottom: 30px
+}
+.text-blue {
+    font-family: geometria;
+    font-size: 56px;
+    font-weight: 800;
+    text-align: center;
+    color: #41D4CC;
+    margin-bottom: 40px
+}
+.image-removebg {
+    position: absolute;
+    top: 2480px;
+    left: 180px
+}
+.block9 .arrows > .arrows > .arrows {
+    margin-bottom: px
+}
+.block10 {
+    margin-top: 100px;
+    height: 1040px;
+}
+.grid-3foto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;  
+    margin-bottom: 40px;
+}
+.grid-3foto img {
+    border-radius: 6px;
+    margin-top: -100px      
+}
+
+.grid-3foto > div > div:nth-child(2) {
+    font-family: geometria;
+    font-size: 20px;
+    font-weight: 400;
+    color: #022735;
+    margin-top: 10px;
+}
+.grid-3foto > div > div:nth-child(3) {
+    font-family: geometria;
+    font-size: 24px;
+    font-weight: 700;
+    color: #022735;
+    margin-top: 5px;
+}
+/* BLOCK 10 ------------------------ */
+.block10 .black-line {
+    margin-bottom: 30px;
+}
+.block .text1 p {
+    font-family: geometria;
+    font-size: 16px;
+}
+.text1 p:nth-child(1) {
+    margin-bottom: 40px;
+}
+.text1 p:nth-child(2) {
+    margin-bottom: 40px;
+}
+.text1 p:nth-child(3) {
+    margin-bottom: 60px;
+}
+.block10 .block7-float {
+    margin-top: 60px;
+    margin-bottom: 460px;
+}
+.block10 .block-float-left {
+    width: 600px;
+    height: 312px;
+    background: #EEE2DC;
+    border-radius: 6px;
+    float: left;
+    margin-right: 5px;
+}
+.block10 .block-float-left input {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: geometria;
+    color: #022735;
+    padding-left: 12px;
+    margin: 30px 0px;
+    padding: 12px;
+}
+.block10 .block-float-left form {
+    padding-top: 10px;
+    text-align: right;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 51px;
+}
+.block10 .block-float-left input::placeholder {
+    color: #022735; 
+}
+.block10 .block-float-left button {
+    background-color: #41D4CC;
+    border-radius: 6px;
+    padding: 14px 30px;
+    font-size: 15px; 
+    font-family: geometria;
+    font-weight: 700;
+    border: 0px
+}
+.block10 .block7-float img {
+    position: absolute;
+    margin-top: 85px;
+}
+.block10 .block-float-right {
+    float: right;
+    margin-right: 20px;
+    width: 490px;
+    padding-left: 35px;
+    margin-top: 35px;
+}
+.block10 .block-float-right > div {
+    font-family: geometria;
+    font-weight: 835;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.block10 .block7-text {
+    font-family: geometria;
+    font-size: 16px;
+    line-height: 2;
+}
+/* BLOCK 11 ------------------------ */
+.block11 .faq {
+    font-family: geometria;
+    font-size: 16px;
+    margin-top: 80px;
+    color: #022735;
+    margin-bottom: 15px;
+}
+.block11 .answer {
+    font-family: geometria;
+    font-size: 40px;
+    font-weight: 800;
+    color: #41D4CC;
+    margin-bottom: 30px;
+}
+.block11 .table-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 100px
+}
+.block11 .table-grid > div {
+    border: 1px solid #41D4CC;
+    padding: 15px 50px 15px 30px;
+    font-family: geometria;
+    font-size: 16px;
+}
+.block11 .table-grid > div:nth-child(1) {
+    border: 0px;
+    background-color: white;
+    border-radius: 6px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-top: 25px;
+}
+.block11 .table-grid > div:nth-child(2) {
+    border-bottom: 0;
+    
+}
+.block11 .table-grid > div:nth-child(3) {
+    border-bottom: 0;
+    
+}
+.block11 .table-grid > div:nth-child(4) {
+    border-bottom: 0;
+}
+.block11 .table-grid > div:nth-child(5) {
+    
+}
+.block11 .table-grid > div:nth-child(6) {
+    border-top: 0;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.block11 .table-grid > div > div:nth-child(1) {
+    margin-bottom: 15px;
+}
+.block11 .table-grid > div > div:nth-child(2) {
+    line-height: 35px;
+}
+.block11 .caret_up {
+    color: white;;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    background-color: #41D4CC;
+    padding-top: 4px;
+    position: absolute;
+    right: 30px;
+    top: 20px
+}
+.block11 .caret_down {
+    color: white;;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    background-color: #41D4CC;
+    padding-top: 6px;
+    position: absolute;
+    right: 30px;
+    top: 225px;
+}
+.block11 .caret_down1 {
+    color: white;;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    background-color: #41D4CC;
+    padding-top: 6px;
+    position: absolute;
+    right: 30px;
+    top: 275px;
+}
+.block11 .caret_down2 {
+    color: white;;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    background-color: #41D4CC;
+    padding-top: 6px;
+    position: absolute;
+    right: 30px;
+    top: 325px;
+}
+.block11 .caret_down3 {
+    color: white;;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    background-color: #41D4CC;
+    padding-top: 6px;
+    position: absolute;
+    right: 30px;
+    top: 375px;
+}
+.block11 .caret_down4 {
+    color: white;;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    background-color: #41D4CC;
+    padding-top: 6px;
+    position: absolute;
+    right: 30px;
+    top: 425px;
+}
+/* BLOCK 12 ------------------------ */
+.block12 {
+    padding-bottom: 100px;
+}
+.block12 .block7-float {
+    padding-top: 200px;
+}
+.block12 .block-float-right > div:nth-child(1){
+    font-family: geometria;
+    color: #022735;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -80px;
+    margin-bottom: 15px;
+}
+.block12 .block-float-right > div:nth-child(2) {
+    font-family: geometria;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 40px;
+    width: 450
+}
+.block12 .border-map  {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    background-color: #022735;
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 30px
+
+}
+.block12 .text {
+    font-family: geometria;
+    font-size: 17px;
+    color: white;
+    font-weight: 100 ;
+    padding-top: 4px;
+    margin-bottom: 40px;
+    margin-left: 74px;
+}
+.block12 .border-map1 {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    text-align: center;
+    background-color: #022735;
+    color: #FFFFFF;
+    position: absolute;
+    
+}
+.block12 .text1 {
+    font-family: geometria;
+    font-size: 17px;
+    color: white;
+    font-weight: 100 ;
+    padding-top: 18px;
+    margin-bottom: 40px;
+    margin-left: 74px;
+}
+.block12 .border-map2 {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    text-align: center;
+    background-color: #022735;
+    color: #FFFFFF;
+    position: absolute; 
+}
+.block12 .text2 {
+    font-family: geometria;
+    font-size: 17px;
+    color: white;
+    font-weight: 100;
+    margin-left: 74px;
+    margin-top: 20px;
+}
+
+.info {
+    color: white;
+    margin-bottom: 40px;
+}
+.info-icon {
+    background-color: #022735;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+    font-size: 26px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.info-text {
+    display: inline-block;
+    font-size: 20px;
+    font-family: geometria;
+    width: 80%;
+    vertical-align: middle;
+}
+/* BLOCK 13 ------------------------ */
+.block13 {
+    height: 719px;
+}
+.block13 .map {
+    position: absolute;
+    top: 202px;
+    left: 981px;
+}
+
+.logo21  {
+    position: absolute;
+    right: 0px;
+    bottom: -3px;
+}
+.block13 .container {
+    height: 100%;
+}
+/* BLOCK 13 ------------------------ */
+footer {
+    background-color: #022735;
+    height: 396px;
+}
+footer a{
+    text-decoration: none;
+}
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 151px;
+}
+
+.grid-footer > div > div:nth-child(3){
+    font-family: geometria;
+    font-size: 16px;
+    word-spacing: 3px;
+    color: #FFFFFF;
+}
+.grid-footer .grid-footer1 a {
+    color: #022735;
+    
+}
+.grid-footer .grid-footer2 a {
+    color: #41D4CC;
+   
+}
+.grid-footer .grid-footer1 {
+    border: 2px solid #41D4CC;
+    border-radius: 6px;
+    padding: 14px 14px;
+    font-size: 14px;
+    font-family: geometria;
+    font-weight: 700;
+    background-color: #41D4CC;
+    width: 237px;
+    margin-bottom: 19px;
+    margin-top: 60px;
+    
+} 
+.grid-footer .grid-footer2 {
+    border: 2px solid #41D4CC;
+    border-radius: 6px;
+    padding: 14px 14px;
+    font-size: 14px;
+    font-family: geometria;
+    font-weight: 700;
+    background-color: #022735;
+    width: 237px;
+    margin-bottom: 180px;
+}
+
+footer .footer-contact {
+    font-family: geometria;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 4px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+footer .footer-contact1 {
+    font-family: geometria;
+    font-size: 16px;
+    color: white;
+    padding-left: 84px;
+    margin-bottom: 20px;
+}
+footer .footer-contact2 {
+    font-family: geometria;
+    font-size: 16px;
+    color: white;
+    padding-left: 84px;
+    margin-bottom: 20px;
+}
+footer .footer-contact3 {
+    font-family: geometria;
+    font-size: 16px;
+    color: white;
+    padding-left: 84px;
+    margin-bottom: 20px;
+}
+footer .location {
+    border: 1 px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #41D4CC;
+    text-align: center;
+    padding-top: 7px;
+    position: absolute;
+    top: 110px;
+    left: 475px;
+}
+footer .footer-phone {
+    border: 1 px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #41D4CC;
+    text-align: center;
+    padding-top: 9px;
+    position: absolute;
+    top: 185px;
+    left: 475px;
+}
+footer .footer-envelope {
+    border: 1 px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #41D4CC;
+    text-align: center;
+    padding-top: 9px;
+    position: absolute;
+    top: 265px;
+    left: 475px;
+}
+footer .networks {
+    font-family: geometria;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 4px;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+footer .networks1 {
+    border: 1 px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #41D4CC;
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 8px;
+    text-align: center;
+}
